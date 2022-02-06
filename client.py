@@ -65,7 +65,7 @@ def main():
     except Exception as e:
         print(e)
     finally:
-        #always close at the end!
+        #always close at the end!!
         s.close()
 if __name__ == "__main__":
     main()
